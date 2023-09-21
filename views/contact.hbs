@@ -1,0 +1,115 @@
+   <!-- Add your site or application content here -->
+   <main>
+      <!-- Page Title Area Start  -->
+      <section class="page-title-area breadcrumb-spacing" data-background="assets/img/breadcrumb/breadcrumb-img.jpg">
+        <div class="container">
+           <div class="row">
+              <div class="col-xxl-9">
+                 <div class="page-title-wrapper">
+                    <h3 class="page-title mb-25">Contact</h3>
+                    <div class="breadcrumb-menu">
+                       <nav aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
+                          <ul class="trail-items">
+                             <li class="trail-item trail-begin"><a href="/"><span>Home</span></a></li>
+                             <li class="trail-item trail-end"><span>Contact</span></li>
+                          </ul>
+                       </nav>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+      <!-- Page Title Area End  -->
+
+      <!-- Contact Area Start Here  -->
+      <section class="bd-contact__area pt-120 pb-60">
+        <div class="container">
+            <div class="bd-contact__item-wrapper mb-20">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="bd-contact__item bd-hover-top white-bg-2 mb-40">
+                            <h4 class="contact-info__title">Phone Number</h4>
+                            <p>Reach to us through</p>
+                            <a href="tel:{{settings.phone}}">{{settings.phone}}</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="bd-contact__item bd-hover-top white-bg-2 mb-40">
+                            <h4 class="contact-info__title">Email</h4>
+                            <p>Get our service quote</p>
+                            <a href="mailto:{{settings.email}}">{{settings.email}}</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="bd-contact__item bd-hover-top white-bg-2 mb-40">
+                            <h4 class="contact-info__title"><Address>Address</Address></h4>
+                            <p>Visit us during office hours</p>
+                            <p>{{settings.address}}</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="bd-contact__item bd-hover-top white-bg-2 mb-40">
+                            <h4 class="contact-info__title">Telephone</h4>
+                            <p>Call us now</p>
+                            <a href="tel:{{settings.telephone}}">{{settings.telephone}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="bd-contact__img w-img br-img-6 mb-60">
+                        <img src="assets/img/contact/contact-img.jpg" alt="contact img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bd-contact__wrapper bd-contact__60 mb-60">
+                        <div class="bd-section__title mb-50">
+                            <span class="bd__subtitle">Contact Us</span>
+                            <h2 class="bd__title-sm">Get in Touch</h2>
+                         </div>
+                       <div class="bd-contact__form">
+                          <form action="/contact-us" method="post">
+                             <div class="row">
+                                <div class="col-md-6">
+                                   <div class="bd-single__input mb-20">
+                                      <input name="name" type="text" placeholder="Full Name">
+                                   </div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="bd-single__input mb-20">
+                                      <input name="email" type="email" placeholder="Email Address">
+                                   </div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="bd-single__input mb-20">
+                                      <input name="phone" type="text" placeholder="Phone Number">
+                                   </div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="bd-single__input mb-20">
+                                      <select>
+                                         <option selected disabled>Service</option>
+                                         {{#each services}}
+                                             <option value="{{name}}">{{name}}</option>
+                                         {{/each}}
+                                      </select>
+                                   </div>
+                                </div>
+                                <div class="col-xl-6">
+                                   <div class="bd-single__input">
+                                      <button type="submit" class="theme-btn">Make An Order <i class="fal fa-arrow-alt-right"></i></button>
+                                   </div>
+                                </div>
+                             </div>
+                          </form>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </section>
+      <!-- Contact Area End Here  -->
+      
+   </main>

@@ -1,5 +1,5 @@
 <!-- Header Area Start Here  -->
-      <header>
+<header>
          <div class="bd-header__position">
             <div class="bd-header__wrapper p-relative">
                <div class="bd-header__top bd-header__top1 d-none d-md-block">
@@ -7,7 +7,7 @@
                      <div class="row justify-content-end">
                         <div class="col-xl-1">
                            <div class="logo logo-position d-none d-xl-block">
-                              <a href="index-2.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                              <a href="/"><img src="{{settings.logo}}" alt="Logo"></a>
                            </div>
                         </div>
                         <div class="col-xl-11 col-lg-12">
@@ -19,7 +19,7 @@
                                     </div>
                                     <div class="bd-header__top1-info-text">
                                        <span class="bd-header__top1-sub-title">Call Us Now</span>
-                                       <h4 class="bd-header__top1-title"><a href="tel:00211232000">00 211 232 000</a></h4>
+                                       <h4 class="bd-header__top1-title"><a href="tel:{{settings.phone}}"{{settings.phone}}>0754 98 50 98</a></h4>
                                     </div>
                                  </div>
                                  <div class="bd-header__top1-info">
@@ -28,7 +28,7 @@
                                     </div>
                                     <div class="bd-header__top1-info-text">
                                        <span class="bd-header__top1-sub-title">Email Address</span>
-                                       <h4 class="bd-header__top1-title"><a href="mailto:info@webmail.com">info@webmail.com</a></h4>
+                                       <h4 class="bd-header__top1-title"><a href="mailto:{{settings.email}}">{{settings.email}}</a></h4>
                                     </div>
                                  </div>
                                  <div class="bd-header__top1-info">
@@ -37,12 +37,12 @@
                                     </div>
                                     <div class="bd-header__top1-info-text">
                                        <span class="bd-header__top1-sub-title">Office Address</span>
-                                       <h4 class="bd-header__top1-title"><a href="https://www.google.com/maps/search/Humble+Tower,+NYC/@40.7355986,-74.0092433,14z/data=!3m1!4b1">Humble Tower, NYC</a></h4>
+                                       <h4 class="bd-header__top1-title"><a href="{{settings.addressLink}}" target="_blank" >{{settings.address}}</a></h4>
                                     </div>
                                  </div>
                               </div>
                               <div class="bd-header__top1-btn gray">
-                                 <a class="theme-btn" href="contact.html">Make An Order <i class="fal fa-arrow-alt-right"></i></a>
+                                 <a class="theme-btn" href="/contact">Make An Order <i class="fal fa-arrow-alt-right"></i></a>
                               </div>
                            </div>
                         </div>
@@ -57,44 +57,21 @@
                               <div class="col-xl-10 col-lg-12">
                                  <div class="d-flex justify-content-between align-items-center bd-header__bottom-order">
                                        <div class="bd-header__bottom--logo d-xl-none">
-                                          <img src="assets/img/logo/logo-black.png" alt="logo">
+                                          <img src="{{settings.logoBlack}}" alt="logo">
                                        </div>
                                        <div class="main-menu main-menu1">
                                           <nav id="mobile-menu">
                                              <ul>
-                                                <li><a href="index-2.html">Home</a>
+                                                <li><a href="/">Home</a> </li>
+                                                <li><a href="/about">About</a></li>
+                                                <li><a href="/services">services</a>
                                                    <ul>
-                                                      <li><a href="index-2.html">Home One</a></li>
-                                                      <li><a href="index-3.html">Home Two</a></li>
-                                                      <li><a href="index-4.html">Home Three</a></li>
+                                                      {{#each services}}
+                                                      <li><a href="/service/{{id}}">{{name}}</a></li>
+                                                      {{/each}}  
                                                    </ul>
                                                 </li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="services.html">services</a>
-                                                   <ul>
-                                                      <li><a href="services.html">services</a></li>
-                                                      <li><a href="services-details.html">services details</a></li>
-                                                   </ul>
-                                                </li>
-                                                <li><a href="#">Pages</a>
-                                                   <ul>
-                                                      <li><a href="team.html">Team</a></li>
-                                                      <li><a href="team-details.html">Team Details</a></li>
-                                                      <li><a href="case.html">Case</a></li>
-                                                      <li><a href="case-details.html">Case Details</a></li>
-                                                      <li><a href="faq.html">FAQ</a></li>
-                                                      <li><a href="pricing.html">Pricing</a></li>
-                                                      <li><a href="blog.html">Blog</a>
-                                                         <ul>
-                                                            <li><a href="blog.html">blog 1</a></li>
-                                                            <li><a href="blog-2.html">blog 2</a></li>
-                                                            <li><a href="blog-3.html">blog 3</a></li>
-                                                            <li><a href="blog-details.html">blog details</a></li>
-                                                         </ul>
-                                                      </li>
-                                                   </ul>
-                                                </li>
-                                                <li><a href="contact.html">contact</a></li>
+                                                <li><a href="/contact">contact</a></li>
                                              </ul>
                                           </nav>
                                        </div>
@@ -102,10 +79,10 @@
                                           <div class="d-flex align-items-center">
                                              <div class="bd-header__social-link">
                                                 <ul>
-                                                   <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                   <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                                   <li><a href="{{settings.facebook}}" target="_blank" ><i class="fab fa-facebook-f"></i></a></li>
+                                                   <li><a href="{{settings.twitter}}"target="_blank" ><i class="fab fa-twitter"></i></a></li>
                                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                                   <li><a href="{{settings.linkedin}}"target="_blank" ><i class="fab fa-linkedin"></i></a></li>
                                                 </ul>
                                              </div>
                                              <div class="bd-header__print-icon">
@@ -125,7 +102,7 @@
                      <div class="row align-items-center">
                         <div class="col-6">
                            <div class="bd-mobile__logo">
-                              <a href="index-2.html"><img src="assets/img/logo/logo-black.png" alt="Logo"></a>
+                              <a href="/"><img src="{{settings.logoBlack}}" alt="Logo"></a>
                            </div>
                         </div>
                         <div class="col-6">
@@ -148,8 +125,8 @@
                <div class="sidebar__content">
                   <div class="sidebar__content-top p-relative">
                      <div class="sidebar__logo mb-50">
-                        <a href="index-2.html">
-                           <img src="assets/img/logo/logo-black.png" alt="logo.png">
+                        <a href="/">
+                           <img src="{{settings.logoBlack}}" alt="logo.png">
                         </a>
                      </div>
                      <div class="sidebar__close">
@@ -178,7 +155,7 @@
                            </div>
                            <div class="sidebar__info-text">
                               <span>Call us now</span>
-                              <h4><a href="tel:00211232000">00 211 232 000</a></h4>
+                              <h4><a href="tel:{{settings.phone}}">{{settings.phone}}</a></h4>
                            </div>
                         </div>
                         <div class="sidebar__info-item">
@@ -187,7 +164,7 @@
                            </div>
                            <div class="sidebar__info-text">
                               <span>Email Address</span>
-                              <h4><a href="mailto:info@webmail.com">info@webmail.com</a></h4>
+                              <h4><a href="mailto:{{settings.email}}">{{settings.email}}</a></h4>
                            </div>
                         </div>
                         <div class="sidebar__info-item">
@@ -196,17 +173,17 @@
                            </div>
                            <div class="sidebar__info-text">
                               <span>Office Address</span>
-                              <h4><a href="https://www.google.com/maps/search/Humble+Tower,+NYC/@40.7355986,-74.0092433,14z/data=!3m1!4b1">Humble Tower, NYC</a></h4>
+                              <h4><a href="{{settings.addressLink}}" target="_blank">{{settings.address}}</a></h4>
                            </div>
                         </div>
                      </div>
                   </div>
                   <div class="sidebar__social">
                      <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="{{settings.facebook}}" target="_blank" ><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="{{settings.twitter}}"target="_blank" ><i class="fab fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="{{settings.linkedin}}"target="_blank" ><i class="fab fa-linkedin"></i></a></li>
                      </ul>
                   </div>
                </div>
@@ -220,46 +197,22 @@
                <div class="row align-items-center">
                   <div class="col-xl-2 col-lg-2 col-6">
                      <div class="bd-sticky__logo">
-                        <a href="index-2.html"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
+                        <a href="/"><img src="{{settings.logoBlack}}" alt="logo"></a>
                      </div>
                   </div>
                   <div class="col-xl-7 col-lg-10 col-6">
                      <div class="main-menu main-menu1 t-right d-none d-lg-block">
                         <nav>
-                           <ul>
-                              <li><a href="index-2.html">Home</a>
+                           <ul><li><a href="/">Home</a></li>
+                              <li><a href="/about">About</a></li>   
+                              <li><a href="/services">services</a>
                                  <ul>
-                                    <li><a href="index-2.html">Home One</a></li>
-                                    <li><a href="index-3.html">Home Two</a></li>
-                                    <li><a href="index-4.html">Home Three</a></li>
+                                    {{#each services}}
+                                       <li><a href="service/{{id}}">{{name}}</a></li>
+                                    {{/each}}
                                  </ul>
                               </li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="services.html">services</a>
-                                 <ul>
-                                    <li><a href="services.html">services</a></li>
-                                    <li><a href="services-details.html">services details</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href="#">Pages</a>
-                                 <ul>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="case.html">Case</a></li>
-                                    <li><a href="case-details.html">Case Details</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                       <ul>
-                                          <li><a href="blog.html">blog 1</a></li>
-                                          <li><a href="blog-2.html">blog 2</a></li>
-                                          <li><a href="blog-3.html">blog 3</a></li>
-                                          <li><a href="blog-details.html">blog details</a></li>
-                                       </ul>
-                                    </li>
-                                 </ul>
-                              </li>
-                              <li><a href="contact.html">contact</a></li>
+                              <li><a href="/contact">contact</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -275,10 +228,10 @@
                      <div class="bd-header__icon-wrapper justify-content-end d-flex align-items-center">
                         <div class="bd-header__social-link f-right">
                            <ul>
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                               <li><a href="{{settings.facebook}}" target="_blank" ><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="{{settings.twitter}}"target="_blank" ><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="{{settings.linkedin}}"target="_blank" ><i class="fab fa-linkedin"></i></a></li>
                            </ul>
                         </div>
                         <div class="bd-header__print-icon f-right">
@@ -291,5 +244,5 @@
          </div>
          <!-- Sticky Menu Start Here  -->
          <div class="body-overlay"></div>
-      </header>
-      <!-- Header Area End Here  -->
+</header>
+<!-- Header Area End Here  -->

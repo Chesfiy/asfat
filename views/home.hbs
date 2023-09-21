@@ -1,1 +1,189 @@
 {{>home_slider}}
+
+ <!-- About Us Area Start Here  -->
+      <section class="bd-about bd-about1 wow fadeInUp" data-wow-delay=".3s">
+         <div class="container">
+            <div class="bd-about1__box">
+               <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-6">
+                     <div class="bd-about1__wrapper mb-60">
+                        <div class="bd-about1__img1 w-img">
+                           <img src="assets/img/about/about-1.png" alt="about">
+                        </div>
+                        <div class="bd-about1__experience">
+                           <div class="bd-about1__experience-icon mb-15">
+                              <i class="flaticon-heat-press"></i>
+                           </div>
+                           <h2 class="bd-about1__count-title"><span class="counter">20</span><sup class="bd-about1__plus">+</sup></h2>
+                           <span class="bd-about1__text">Years Experience</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <div class="bd-about1__content-wrapper mb-60">
+                        <div class="bd-section__title mb-40">
+                           <span class="bd__subtitle">About Us</span>
+                           <h2 class="bd__title ls--3">We are Solution<br> for You and Your Company</h2>
+                        </div>
+                        <div class="bd-about1__printing d-flex align-items-center">
+                           <h5 class="bd-about1__print-title">Encouraging creativity and a willingness to adapt and innovate.</h5>
+                           <div class="bd-about1__icon">
+                              <i class="flaticon-heat-press"></i>
+                           </div>
+                        </div>
+                        <p class="bd-about1__para mb-45">Solutions in printing and stationery, school materials, uniforms, bakery, catering services, cleaning services, 
+                            financial management consultancy, gardening, and landscaping.</p>
+                        <div class="bd-about1__btn">
+                           <a class="theme-btn" href="/about">Learn More <i class="fal fa-arrow-alt-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Us Area End Here  -->
+
+       <!-- Services Area Start Here  -->
+      <section class="bd-services bd-services1 grey-bg-2 pt-160 pb-80">
+         <div class="container">
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
+               <div class="col-md-7">
+                  <div class="bd-section__title text-center mb-45">
+                     <span class="bd__subtitle">Services</span>
+                     <h2 class="bd__title">Best Offer Services</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay=".5s">
+               {{#each bestOffer}}
+               <div class="col-lg-4 col-md-6">
+                  <div class="bd-services1__item mb-40">
+                     <div class="bd-services1__num">
+                        <h6>Service {{id}}</h6>
+                     </div>
+                     <div class="bd-services1__icon">
+                        <img src="{{iconImage}}" alt="serivces icon">
+                     </div>
+                     <div class="bd-services1__text">
+                        <p class="bd-services1__para">Quality service near from you</p>
+                        <h3 class="bd-services1__title"><a href="/service/{{id}}">{{name}} service</a></h3>
+                     </div>
+                     <div class="bd-services1__btn">
+                        <a class="theme-btn" href="/service/{{id}}">Get This Service <i class="fal fa-arrow-alt-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               {{/each}}
+            </div>
+         </div>
+      </section>
+      <!-- Services Area End Here  -->
+
+      <!-- Counter Area Start Here  -->
+      <section class="bd-counter bd-counter1 theme-bg pt-75">
+         <div class="container">
+            <div class="row wow fadeInUp" data-wow-delay=".3s">
+               <div class="col-xl-3 col-lg-6 col-6">
+                  <div class="bd-counter bd-counter1__item text-center">
+                     <h2 class="bd-counter__title"><span class="counter">300</span><sup class="bd-counter__plus">+</sup></h2>
+                     <span class="bd-counter__text">Projects Completed</span>
+                     <div class="bd-counter__icon">
+                        <i class="flaticon-google-docs"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-6">
+                  <div class="bd-counter bd-counter1__item text-center">
+                     <h2 class="bd-counter__title"><span class="counter">20</span><sup class="bd-counter__plus">+</sup></h2>
+                     <span class="bd-counter__text">Professional Staff</span>
+                     <div class="bd-counter__icon">
+                        <i class="flaticon-group"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-6">
+                  <div class="bd-counter bd-counter1__item text-center">
+                     <h2 class="bd-counter__title"><span class="counter">3</span><sup class="bd-counter__plus">+</sup></h2>
+                     <span class="bd-counter__text">Countries Covered</span>
+                     <div class="bd-counter__icon">
+                        <i class="flaticon-global"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-6">
+                  <div class="bd-counter bd-counter1__item text-center">
+                     <h2 class="bd-counter__title"><span class="counter">1050</span><sup class="bd-counter__plus">+</sup></h2>
+                     <span class="bd-counter__text">Satisfied People</span>
+                     <div class="bd-counter__icon">
+                        <i class="flaticon-team"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Counter Area End Here  -->
+
+      <!-- Testimonial Area Start Here  -->
+      <section class="bd-tm bd-tm--space pt-170 pb-130" data-background="assets/img/testimonial/map-bg.png">
+         <div class="container">
+            <div class="bd-tm-tittle-wrapper mb-40">
+               <div class="row align-items-center wow fadeInUp" data-wow-delay=".3s">
+                  <div class="col-sm-8">
+                     <div class="bd-section__title bd-section__tm-title">
+                        <span class="bd__subtitle">Testimonials</span>
+                        <h2 class="bd__title">Users Feedback</h2>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="bd-tm__nav bd-tm__nav--20 bd-slider-nav d-flex justify-content-sm-end">
+                        <div class="bd-tm__prev"><i class="fal fa-long-arrow-left"></i></div>
+                        <div class="bd-tm__next"><i class="fal fa-long-arrow-right"></i></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bd-tm__slider__area fix wow fadeInUp" data-wow-delay=".5s">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-xl-12">
+                     <div class="bd-tm__wrapper">
+                        <div class="bd-tm__active swiper-container">
+                           <div class="swiper-wrapper">
+                              {{#each testimonials}}
+                              <div class="swiper-slide">
+                                 <div class="bd-tm__item bd-hover-top">
+                                    <div class="bd-tm__rating">
+                                       {{#times rate}}
+                                       <i class="fas fa-star"></i>
+                                       {{/times}}
+                                    </div>
+                                    <div class="bd-tm__text">
+                                       <p>“ {{testimonial}} ”</p>
+                                    </div>
+                                    <div class="bd-tm__author">
+                                       <div class="bd-tm__quote-icon">
+                                          <i class="flaticon-quote"></i>
+                                       </div>
+                                       <div class="bd-tm__author-img f-left">
+                                          <img src="{{profile}}" alt="Author Images">
+                                       </div>
+                                       <div class="bd-tm__author-text fix">
+                                          <h5 class="bd-tm__author-name">{{name}}</h5>
+                                          <span class="bd-tm__author-cat">{{title}}</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              {{/each}}
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonial Area End Here  -->

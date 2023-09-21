@@ -2,9 +2,10 @@
 <div class="banner-area banner-area1 pos-rel">
          <div class="swiper-container slider__active">
             <div class="swiper-wrapper">
-               <div class="swiper-slide" data-background="assets/img/banner/banner-bg.png">
+               {{#each homeSlider }}
+                <div class="swiper-slide" data-background="/assets/img/banner/banner-bg.png">
                   <div class="single-banner single-banner-1 banner-overlay-1 banner-835 d-flex align-items-center pos-rel">
-                     <div class="banner-bg banner-bg1 banner-bg1-1" data-background="assets/img/banner/banner-1.png">
+                     <div class="banner-bg banner-bg1 banner-bg1-1" data-background="{{image}}">
                      </div>
                      <div class="container pos-rel">
                         <div class="row align-items-center">
@@ -13,12 +14,11 @@
                                  <div class="banner-meta-text yellow-color" data-animation="fadeInUp" data-delay=".6s">
                                     <span>Welcome To Our Company</span>
                                  </div>
-                                 <h1 class="banner-title white-color" data-animation="fadeInUp" data-delay=".8s">First & Quality <br>Printing Press</h1>
-                                 <p class="banner-text" data-animation="fadeInUp" data-delay="1.0s">When we say we’re not happy until you’re happy, we really
-                                    do mean it. <br> You will be happy with service.</p>
+                                 <h1 class="banner-title white-color" data-animation="fadeInUp" data-delay=".8s">{{{title}}}</h1>
+                                 <p class="banner-text" data-animation="fadeInUp" data-delay="1.0s">{{{description}}}</p>
                                  <div class="banner-btn one" data-animation="fadeInUp" data-delay="1.2s">
-                                    <a class="theme-btn red" href="contact.html">Make An Order <i class="fal fa-arrow-alt-right"></i></a>
-                                    <a class="theme-btn yellow" href="contact.html">How It Works <i class="fal fa-arrow-alt-right"></i></a>
+                                    <a class="theme-btn red" href="/contact">Make An Order <i class="fal fa-arrow-alt-right"></i></a>
+                                    <a class="theme-btn yellow" href="/contact">How It Works <i class="fal fa-arrow-alt-right"></i></a>
                                  </div>
                               </div>
                            </div>
@@ -26,30 +26,7 @@
                      </div>
                   </div>
                </div>
-               <div class="swiper-slide" data-background="assets/img/banner/banner-bg.png">
-                  <div class="single-banner single-banner-1 banner-overlay-1 banner-835 d-flex align-items-center pos-rel">
-                     <div class="banner-bg banner-bg1 banner-bg1-1" data-background="assets/img/banner/banner-3.png">
-                     </div>
-                     <div class="container pos-rel">
-                        <div class="row align-items-center">
-                           <div class="col-xl-8 col-lg-7 col-md-8">
-                              <div class="banner-content banner-content1 banner-content1-1 pt-40">
-                                 <div class="banner-meta-text yellow-color" data-animation="fadeInUp" data-delay=".6s">
-                                    <span>Welcome To Our Company</span>
-                                 </div>
-                                 <h1 class="banner-title white-color" data-animation="fadeInUp" data-delay=".8s">get Best <br>Printing services</h1>
-                                 <p class="banner-text" data-animation="fadeInUp" data-delay="1.0s">When we say we’re not happy until you’re happy, we really
-                                    do mean it. <br> You will be happy with service.</p>
-                                 <div class="banner-btn one" data-animation="fadeInUp" data-delay="1.2s">
-                                    <a class="theme-btn red" href="contact.html">Make An Order <i class="fal fa-arrow-alt-right"></i></a>
-                                    <a class="theme-btn yellow" href="contact.html">How It Works <i class="fal fa-arrow-alt-right"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+               {{/each}}
             </div>
          </div>
 </div>
