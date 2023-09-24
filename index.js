@@ -97,6 +97,7 @@ app.post("/contact-us", function (req, res) {
             password: config.email_pass,
             host: config.email_smtp,
             tls: true,
+            port: 587 
           });
 
           server.send({
@@ -152,6 +153,7 @@ app.post("/contact", function (req, res) {
             password: config.email_pass,
             host: config.email_smtp,
             tls: true,
+            port: 587
           });
 
           server.send({
@@ -183,7 +185,7 @@ const homeSlider = [
     {
         id: 1,
         title: 'First & Quality <br>Printing Press',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/banner-bg.png',
 
     },
@@ -191,7 +193,7 @@ const homeSlider = [
     {
         id: 2,
         title: 'Best Supply of <br>School Materials and Uniforms',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-pixabay-207665.jpg',
 
     },
@@ -199,7 +201,7 @@ const homeSlider = [
     {
         id: 3,
         title: 'Bite into Bliss: <br>Discover Our Irresistable Bakery Delights',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-klaus-nielsen-6287283.jpg',
 
     },
@@ -207,7 +209,7 @@ const homeSlider = [
     {
         id: 4,
         title: 'From Our Kitchen to Event: Unforgettable Catering',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-naim-benjelloun-2291367.jpg',
 
     },
@@ -215,7 +217,7 @@ const homeSlider = [
     {
         id: 5,
         title: 'Shine Bright: <br>Your Trusted Cleaning Partner.',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-tima-miroshnichenko-6195125.jpg',
 
     },
@@ -223,7 +225,7 @@ const homeSlider = [
     {
         id: 6,
         title: 'Breath in Serenity<br>Our Garden, Your Oasis',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-ivan-57980.jpg',
 
     },
@@ -231,7 +233,7 @@ const homeSlider = [
     {
         id: 7,
         title: 'Navigate Prosperity <br>Expert Finacial Management Consulting',
-        description: 'When we say we’re not happy until you’re happy, we really do mean it. <br> You will be happy with service.',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/pexels-alex-green-5699479.jpg',
 
     },
@@ -240,6 +242,128 @@ const homeSlider = [
 const services = [
     {
         id: 1,
+        name: 'Supply of School Materials and Uniforms',
+        description: "ASFAT is your one-stop shop for school materials and uniforms, catering to both educational institutions and corporate clients. We supply a wide range of quality materials, uniforms, and accessories, ensuring students, staff, and employees are well-prepared and professionally attired for their respective roles and activities.",
+        image: '/assets/img/services/service-details-bg-1.jpg',
+        iconImage:'/assets/img/icons/uniform.png',
+        icon: 'flaticon-students',
+        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
+        gallery: [
+            {
+                id: 1,
+                title: 'T shirt Pinting',
+                image: '/assets/img/case/case-1.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Document Pinting',
+                image: '/assets/img/case/case-2.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Wall Papers Printing',
+                image: '/assets/img/case/case-3.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Bussiness Card',
+                image: '/assets/img/case/case-4.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Printing',
+                image: '/assets/img/case/case-5.jpg',
+            },
+        ]
+    },
+
+    {
+        id: 2,
+        name: 'Bakery',
+        description: "Our artisanal bakery offers a delectable range of freshly baked goods, from  Swahili coockies (visheti),bread and pastries to cakes and confections. Our commitment to quality ingredients and traditional techniques ensures a delightful culinary experience for all.",
+        image: '/assets/img/services/service-details-bg-1.jpg',
+        iconImage:'/assets/img/icons/bake.png',
+        icon: 'flaticon-printer',
+        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
+        gallery: [
+            {
+                id: 1,
+                title: 'T shirt Pinting',
+                image: '/assets/img/case/case-1.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Document Pinting',
+                image: '/assets/img/case/case-2.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Wall Papers Printing',
+                image: '/assets/img/case/case-3.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Bussiness Card',
+                image: '/assets/img/case/case-4.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Printing',
+                image: '/assets/img/case/case-5.jpg',
+            },
+        ]
+    },
+    {
+        id: 3,
+        name: 'Consultancy in Financial Management',
+        description: "Our financial management consultancy services help businesses make informed decisions, optimize financial processes, and achieve financial stability. Our expert team offers personalized solutions to address your financial challenges.",
+        image: '/assets/img/services/service-details-bg-1.jpg',
+        iconImage:'/assets/img/icons/consultation.png',
+        icon: 'flaticon-printer',
+        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
+        gallery: [
+            {
+                id: 1,
+                title: 'T shirt Pinting',
+                image: '/assets/img/case/case-1.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Document Pinting',
+                image: '/assets/img/case/case-2.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Wall Papers Printing',
+                image: '/assets/img/case/case-3.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Bussiness Card',
+                image: '/assets/img/case/case-4.jpg',
+            },
+
+            {
+                id: 1,
+                title: 'Printing',
+                image: '/assets/img/case/case-5.jpg',
+            },
+        ]
+    },
+
+    {
+        id: 4,
         name: 'Printing and Stationery',
         description: ` provide comprehensive printing 
                         and stationery solutions for businesses and 
@@ -284,89 +408,7 @@ const services = [
     },
 
     {
-        id: 2,
-        name: 'Supply of School Materials and Uniforms',
-        description: "ASFAT is your one-stop shop for school materials and uniforms, catering to both educational institutions and corporate clients. We supply a wide range of quality materials, uniforms, and accessories, ensuring students, staff, and employees are well-prepared and professionally attired for their respective roles and activities.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
-        iconImage:'/assets/img/icons/uniform.png',
-        icon: 'flaticon-students',
-        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
-        gallery: [
-            {
-                id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
-            },
-        ]
-    },
-
-    {
-        id: 3,
-        name: 'Bakery',
-        description: "Our artisanal bakery offers a delectable range of freshly baked goods, from  Swahili coockies (visheti),bread and pastries to cakes and confections. Our commitment to quality ingredients and traditional techniques ensures a delightful culinary experience for all.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
-        iconImage:'/assets/img/icons/bake.png',
-        icon: 'flaticon-printer',
-        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
-        gallery: [
-            {
-                id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
-            },
-        ]
-    },
-
-    {
-        id: 4,
+        id: 5,
         name: 'Catering Services',
         description: "From corporate events to weddings and private parties, ASFAT Catering Services offers a diverse menu tailored to your specific needs. Our culinary team creates memorable dining experiences that delight the senses.",
         image: '/assets/img/services/service-details-bg-1.jpg',
@@ -407,7 +449,7 @@ const services = [
     },
 
     {
-        id: 5,
+        id: 6,
         name: 'Cleaning Services',
         description: "ASFAT Cleaning Services specializes in commercial and residential cleaning. Our experienced team uses eco-friendly products and efficient techniques to maintain clean, safe, and hygienic environments.",
         image: '/assets/img/services/service-details-bg-1.jpg',
@@ -448,7 +490,7 @@ const services = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Gardening and Landscaping',
         description: "ASFAT's gardening and landscaping services transform outdoor spaces into stunning, harmonious environments. Whether it's residential or commercial properties, we create lush gardens and appealing landscapes that enhance the beauty and functionality of any space.",
         image: '/assets/img/services/service-details-bg-1.jpg',
@@ -489,7 +531,7 @@ const services = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Consultancy in Financial Management',
         description: "Our financial management consultancy services help businesses make informed decisions, optimize financial processes, and achieve financial stability. Our expert team offers personalized solutions to address your financial challenges.",
         image: '/assets/img/services/service-details-bg-1.jpg',
