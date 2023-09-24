@@ -183,14 +183,6 @@ app.listen(config.port, () => console.log(`App is listening on url http://localh
 
 const homeSlider = [
     {
-        id: 1,
-        title: 'First & Quality <br>Printing Press',
-        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
-        image: '/assets/img/banner/banner-bg.png',
-
-    },
-
-    {
         id: 2,
         title: 'Best Supply of <br>School Materials and Uniforms',
         description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
@@ -205,6 +197,24 @@ const homeSlider = [
         image: '/assets/img/banner/pexels-klaus-nielsen-6287283.jpg',
 
     },
+
+    {
+        id: 7,
+        title: 'Navigate Prosperity <br>Expert Finacial Management Consulting',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
+        image: '/assets/img/banner/financial-consultant.jpg',
+
+    },
+
+
+    {
+        id: 1,
+        title: 'First & Quality <br>Printing Press',
+        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
+        image: '/assets/img/banner/banner-1.png',
+
+    },
+
 
     {
         id: 4,
@@ -226,17 +236,11 @@ const homeSlider = [
         id: 6,
         title: 'Breath in Serenity<br>Our Garden, Your Oasis',
         description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
-        image: '/assets/img/banner/pexels-ivan-57980.jpg',
+        image: '/assets/img/banner/gardening-barner.png',
 
     },
 
-    {
-        id: 7,
-        title: 'Navigate Prosperity <br>Expert Finacial Management Consulting',
-        description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
-        image: '/assets/img/banner/pexels-alex-green-5699479.jpg',
-
-    },
+    
 ]
 
 const services = [
