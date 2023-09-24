@@ -248,7 +248,7 @@ const services = [
         id: 1,
         name: 'Supply of School Materials and Uniforms',
         description: "ASFAT is your one-stop shop for school materials and uniforms, catering to both educational institutions and corporate clients. We supply a wide range of quality materials, uniforms, and accessories, ensuring students, staff, and employees are well-prepared and professionally attired for their respective roles and activities.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/pexels-pixabay-207665.jpg',
         iconImage:'/assets/img/icons/uniform.png',
         icon: 'flaticon-students',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -289,7 +289,7 @@ const services = [
         id: 2,
         name: 'Bakery',
         description: "Our artisanal bakery offers a delectable range of freshly baked goods, from  Swahili coockies (visheti),bread and pastries to cakes and confections. Our commitment to quality ingredients and traditional techniques ensures a delightful culinary experience for all.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/pexels-klaus-nielsen-6287283.jpg',
         iconImage:'/assets/img/icons/bake.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -329,7 +329,7 @@ const services = [
         id: 3,
         name: 'Consultancy in Financial Management',
         description: "Our financial management consultancy services help businesses make informed decisions, optimize financial processes, and achieve financial stability. Our expert team offers personalized solutions to address your financial challenges.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/financial-consultant.jpg',
         iconImage:'/assets/img/icons/consultation.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -374,7 +374,7 @@ const services = [
                         individuals. Our services include design, 
                         printing, and customization of a wide range
                          of products, from business cards to promotional materials.`,
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/banner-1.png',
         iconImage:'/assets/img/services/services-01.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -415,7 +415,7 @@ const services = [
         id: 5,
         name: 'Catering Services',
         description: "From corporate events to weddings and private parties, ASFAT Catering Services offers a diverse menu tailored to your specific needs. Our culinary team creates memorable dining experiences that delight the senses.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/pexels-naim-benjelloun-2291367.jpg',
         iconImage:'/assets/img/icons/waiter.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -456,7 +456,7 @@ const services = [
         id: 6,
         name: 'Cleaning Services',
         description: "ASFAT Cleaning Services specializes in commercial and residential cleaning. Our experienced team uses eco-friendly products and efficient techniques to maintain clean, safe, and hygienic environments.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/pexels-tima-miroshnichenko-6195125.jpg',
         iconImage:'/assets/img/icons/cleaning-cart.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
@@ -497,49 +497,8 @@ const services = [
         id: 7,
         name: 'Gardening and Landscaping',
         description: "ASFAT's gardening and landscaping services transform outdoor spaces into stunning, harmonious environments. Whether it's residential or commercial properties, we create lush gardens and appealing landscapes that enhance the beauty and functionality of any space.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
+        image: '/assets/img/banner/gardening-barner.png',
         iconImage:'/assets/img/icons/gardening.png',
-        icon: 'flaticon-printer',
-        experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
-        gallery: [
-            {
-                id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
-            },
-        ]
-    },
-
-    {
-        id: 8,
-        name: 'Consultancy in Financial Management',
-        description: "Our financial management consultancy services help businesses make informed decisions, optimize financial processes, and achieve financial stability. Our expert team offers personalized solutions to address your financial challenges.",
-        image: '/assets/img/services/service-details-bg-1.jpg',
-        iconImage:'/assets/img/icons/consultation.png',
         icon: 'flaticon-printer',
         experiences:'From finance, retail, and travel, to social media, cybersecurity, ad tech, & more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.',
         gallery: [
