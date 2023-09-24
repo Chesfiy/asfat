@@ -200,7 +200,7 @@ const homeSlider = [
 
     {
         id: 7,
-        title: 'Navigate Prosperity <br>Expert Finacial Management Consulting',
+        title: 'Navigate Prosperity: <br>Expert Finacial Management Consulting',
         description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/financial-consultant.jpg',
 
@@ -234,7 +234,7 @@ const homeSlider = [
 
     {
         id: 6,
-        title: 'Breath in Serenity<br>Our Garden, Your Oasis',
+        title: 'Breath in Serenity:<br>Our Garden, Your Oasis',
         description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
         image: '/assets/img/banner/gardening-barner.jpg',
 
