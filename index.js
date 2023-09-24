@@ -236,7 +236,7 @@ const homeSlider = [
         id: 6,
         title: 'Breath in Serenity<br>Our Garden, Your Oasis',
         description: 'When we declare our satisfaction hinges upon your delight, we genuinely intend to savor it, as is befitting royalty.',
-        image: '/assets/img/banner/gardening-barner.png',
+        image: '/assets/img/banner/gardening-barner.jpg',
 
     },
 
