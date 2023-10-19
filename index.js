@@ -255,32 +255,32 @@ const services = [
         gallery: [
             {
                 id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
+                title: 'Pen & Pencils',
+                image: '/assets/img/case/stationery-school-materials/graphite-669371_1920.jpg',
             },
 
             {
                 id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
+                title: 'Stepler and Staple Pins',
+                image: '/assets/img/case/stationery-school-materials/office-accessories-1803666_1920.jpg',
             },
 
             {
                 id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
+                title: 'School Accessories',
+                image: '/assets/img/case/stationery-school-materials/pexels-oleksandr-p-12932614.jpg',
             },
 
             {
                 id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
+                title: 'School Bags',
+                image: '/assets/img/case/stationery-school-materials/school-supplies-5541099_1920.jpg',
             },
 
             {
                 id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
+                title: 'School Accessories',
+                image: '/assets/img/case/stationery-school-materials/pexels-oleksandr-p-12932614.jpg',
             },
         ]
     },
@@ -296,32 +296,32 @@ const services = [
         gallery: [
             {
                 id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
+                title: 'Visheti Baking',
+                image: '/assets/img/case/WhatsApp Image 2023-10-09 at 09.19.11_6a838378.jpg',
             },
 
             {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
+                id: 2,
+                title: 'Visheti',
+                image: '/assets/img/case/WhatsApp Image 2023-10-09 at 09.19.12_805fc7ea.jpg',
             },
 
             {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
+                id:31,
+                title: 'Visheti',
+                image: '/assets/img/case/WhatsApp Image 2023-10-09 at 09.19.12_5243b4c5.jpg',
             },
 
             {
-                id: 1,
+                id: 4,
                 title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
+                image: '/assets/img/case/WhatsApp Image 2023-10-09 at 09.19.15_3ebde8e0.jpg',
             },
 
             {
-                id: 1,
+                id: 5,
                 title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
+                image: 'WhatsApp Image 2023-10-09 at 09.19.15_35518b75.jpg',
             },
         ]
     },
@@ -422,32 +422,26 @@ const services = [
         gallery: [
             {
                 id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
+                title: 'Saving Food',
+                image: '/assets/img/case/catering/andra-c-taylor-jr-soJBvazDKL0-unsplash.jpg',
             },
 
             {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
+                id: 2,
+                title: 'Cooking Food',
+                image: '/assets/img/case/catering/dolores-preciado-kFEdwp6n_mI-unsplash.jpg',
             },
 
             {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
+                id: 3,
+                title: 'Food Budgeting',
+                image: '/assets/img/case/catering/pexels-naim-benjelloun-2291367.jpg',
             },
 
             {
-                id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
+                id: 4,
+                title: 'Delicious Food',
+                image: '/assets/img/case/catering/saile-ilyas-SiwrpBnxDww-unsplash.jpg',
             },
         ]
     },
@@ -463,32 +457,26 @@ const services = [
         gallery: [
             {
                 id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
+                title: 'Cleanig Service',
+                image: '/assets/img/case/cleaning/clay-banks-cEzMOp5FtV4-unsplash.jpg',
             },
 
             {
-                id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
+                id: 2,
+                title: 'House Cleaning',
+                image: '/assets/img/case/cleaning/pexels-matilda-wormwood-4098759.jpg',
             },
 
             {
-                id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
+                id: 3,
+                title: 'Cleaning',
+                image: '/assets/img/case/cleaning/pexels-matilda-wormwood-4098761.jpg',
             },
 
             {
-                id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
-            },
-
-            {
-                id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
+                id: 4,
+                title: 'Cleaning',
+                image: '/assets/img/case/cleaning/pexels-polina-zimmerman-4008518.jpg',
             },
         ]
     },
@@ -504,32 +492,32 @@ const services = [
         gallery: [
             {
                 id: 1,
-                title: 'T shirt Pinting',
-                image: '/assets/img/case/case-1.jpg',
+                title: 'Planting',
+                image: '/assets/img/case/gardening/pexels-cottonbro-studio-4503265.jpg',
             },
 
             {
                 id: 1,
-                title: 'Document Pinting',
-                image: '/assets/img/case/case-2.jpg',
+                title: 'Managing Garden',
+                image: '/assets/img/case/gardening/pexels-dominika-roseclay-2433500.jpg',
             },
 
             {
                 id: 1,
-                title: 'Wall Papers Printing',
-                image: '/assets/img/case/case-3.jpg',
+                title: 'Decorating Garden',
+                image: '/assets/img/case/gardening/pexels-markus-spiske-2013782.jpg',
             },
 
             {
                 id: 1,
-                title: 'Bussiness Card',
-                image: '/assets/img/case/case-4.jpg',
+                title: 'Watering Garden',
+                image: '/assets/img/case/gardening/pexels-kaboompics-com-6442.jpg',
             },
 
             {
                 id: 1,
-                title: 'Printing',
-                image: '/assets/img/case/case-5.jpg',
+                title: 'Watering Garden',
+                image: '/assets/img/case/gardening/pexels-karolina-grabowska-4750274.jpg',
             },
         ]
     },
