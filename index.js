@@ -321,7 +321,7 @@ const services = [
             {
                 id: 5,
                 title: 'Printing',
-                image: 'WhatsApp Image 2023-10-09 at 09.19.15_35518b75.jpg',
+                image: '/assets/img/case/WhatsApp Image 2023-10-09 at 09.19.15_35518b75.jpg',
             },
         ]
     },
